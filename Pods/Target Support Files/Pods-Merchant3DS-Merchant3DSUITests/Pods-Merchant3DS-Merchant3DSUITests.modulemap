@@ -1,0 +1,6 @@
+framework module Pods_Merchant3DS_Merchant3DSUITests {
+  umbrella header "Pods-Merchant3DS-Merchant3DSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

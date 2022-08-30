@@ -1,0 +1,1201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3046C35B284916B000955E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C35A284916B000955E5A /* AppDelegate.swift */; };
+		3046C35F284916B000955E5A /* MerchantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C35E284916B000955E5A /* MerchantViewController.swift */; };
+		3046C362284916B000955E5A /* Merchant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3046C360284916B000955E5A /* Merchant.storyboard */; };
+		3046C364284916B100955E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3046C363284916B100955E5A /* Assets.xcassets */; };
+		3046C367284916B100955E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3046C365284916B100955E5A /* LaunchScreen.storyboard */; };
+		3046C372284916B100955E5A /* Merchant3DSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C371284916B100955E5A /* Merchant3DSTests.swift */; };
+		3046C37C284916B100955E5A /* Merchant3DSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C37B284916B100955E5A /* Merchant3DSUITests.swift */; };
+		3046C37E284916B100955E5A /* Merchant3DSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C37D284916B100955E5A /* Merchant3DSUITestsLaunchTests.swift */; };
+		3046C38C2849179F00955E5A /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C38B2849179F00955E5A /* StoryboardInstantiable.swift */; };
+		3046C3932849186300955E5A /* ACSWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3046C3922849186300955E5A /* ACSWebView.xib */; };
+		3046C3952849189200955E5A /* ACSWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3942849189200955E5A /* ACSWebView.swift */; };
+		3046C39828491BF600955E5A /* cardData.html in Resources */ = {isa = PBXBuildFile; fileRef = 3046C39728491BF600955E5A /* cardData.html */; };
+		3046C39B2852D39F00955E5A /* Configuration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3046C39A2852D39F00955E5A /* Configuration.storyboard */; };
+		3046C39D2852D3FB00955E5A /* ConfigurationGPBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C39C2852D3FA00955E5A /* ConfigurationGPBuilder.swift */; };
+		3046C39F2852D41500955E5A /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C39E2852D41500955E5A /* ConfigurationViewController.swift */; };
+		3046C3A12852D43E00955E5A /* ConfigurationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3A02852D43E00955E5A /* ConfigurationViewModel.swift */; };
+		3046C3AB2852D54100955E5A /* DefaultsKey+Discoery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3AA2852D54100955E5A /* DefaultsKey+Discoery.swift */; };
+		3046C3AD2852D56300955E5A /* ValuesKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3AC2852D56300955E5A /* ValuesKeys.swift */; };
+		3046C3AF2852D64900955E5A /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3AE2852D64900955E5A /* KeyValueStore.swift */; };
+		3046C3B12852D69400955E5A /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3B02852D69400955E5A /* UIViewControllerExtensions.swift */; };
+		3046C3B32852D6B300955E5A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3B22852D6B300955E5A /* StringExtensions.swift */; };
+		3046C3B52852D6CB00955E5A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3B42852D6CB00955E5A /* Utils.swift */; };
+		3046C3B72852D6F400955E5A /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3B62852D6F400955E5A /* UIViewExtensions.swift */; };
+		3046C3BA2852D73000955E5A /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3B92852D73000955E5A /* UITextFieldExtensions.swift */; };
+		3046C3BC2852D76500955E5A /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3BB2852D76500955E5A /* UIButtonExtensions.swift */; };
+		3046C3BF2852D79400955E5A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3BE2852D79400955E5A /* Theme.swift */; };
+		3046C3C12852D7C900955E5A /* CountryUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3C02852D7C900955E5A /* CountryUtils.swift */; };
+		3046C3C42852D82700955E5A /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3C32852D82700955E5A /* Mappable.swift */; };
+		3046C3C72852DAA200955E5A /* MerchantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3C62852DAA200955E5A /* MerchantViewModel.swift */; };
+		3046C3C92852DC2800955E5A /* MerchantBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3C82852DC2800955E5A /* MerchantBuilder.swift */; };
+		3046C3CE2852DDB500955E5A /* AddressType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3CD2852DDB500955E5A /* AddressType.swift */; };
+		3046C3D12852DDF100955E5A /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3D02852DDF100955E5A /* DropDown.swift */; };
+		3046C3D32852DE0E00955E5A /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3D22852DE0E00955E5A /* DatePicker.swift */; };
+		3046C3D72852DF1800955E5A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3046C3D92852DF1800955E5A /* Localizable.strings */; };
+		3046C3E02852E17D00955E5A /* GatewayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3DF2852E17D00955E5A /* GatewayProvider.swift */; };
+		3046C3E42852E31100955E5A /* OptionalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C3E32852E31100955E5A /* OptionalExtensions.swift */; };
+		3046C4012858F36C00955E5A /* SwiftLang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C4002858F36C00955E5A /* SwiftLang.swift */; };
+		3046C4082858F42D00955E5A /* StringsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C4072858F42D00955E5A /* StringsExtensions.swift */; };
+		3046C40C2858F4AC00955E5A /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C40B2858F4AC00955E5A /* DateExtensions.swift */; };
+		3046C40E2858F4F300955E5A /* ServiceEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C40D2858F4F300955E5A /* ServiceEndpoints.swift */; };
+		3046C4102858F53D00955E5A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046C40F2858F53D00955E5A /* Environment.swift */; };
+		304CD93A28B7AB95007A82E2 /* ConfigurationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD93928B7AB95007A82E2 /* ConfigurationService.swift */; };
+		304CD93C28B7B913007A82E2 /* PaymentDetailsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD93B28B7B913007A82E2 /* PaymentDetailsUseCase.swift */; };
+		304CD93F28B7B96C007A82E2 /* ApiGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD93E28B7B96C007A82E2 /* ApiGateway.swift */; };
+		304CD94228B7B9A1007A82E2 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD94128B7B9A1007A82E2 /* AuthenticationResponse.swift */; };
+		304CD94428B7B9C4007A82E2 /* ThreeDSVersioningResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD94328B7B9C4007A82E2 /* ThreeDSVersioningResponse.swift */; };
+		304CD94628B7B9E2007A82E2 /* Deserialisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD94528B7B9E2007A82E2 /* Deserialisable.swift */; };
+		304CD94828B7B9FB007A82E2 /* ErrorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD94728B7B9FB007A82E2 /* ErrorDetails.swift */; };
+		304CD94A28B7BA1A007A82E2 /* DeserialisableHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD94928B7BA1A007A82E2 /* DeserialisableHandler.swift */; };
+		304CD94C28B7BA45007A82E2 /* AppSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD94B28B7BA45007A82E2 /* AppSessionDelegate.swift */; };
+		304CD94E28B7BA66007A82E2 /* RequestorBackendEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD94D28B7BA66007A82E2 /* RequestorBackendEndpoint.swift */; };
+		304CD95028B7BAC5007A82E2 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD94F28B7BAC5007A82E2 /* AppError.swift */; };
+		304CD95228B7BB09007A82E2 /* ErrorDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD95128B7BB09007A82E2 /* ErrorDescription.swift */; };
+		304CD95428B7BB81007A82E2 /* PaymentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD95328B7BB81007A82E2 /* PaymentDetails.swift */; };
+		304CD95728B7BBAB007A82E2 /* MessageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD95628B7BBAB007A82E2 /* MessageExtension.swift */; };
+		304CD95A28B7BBCD007A82E2 /* MessageExtensionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD95928B7BBCD007A82E2 /* MessageExtensionRequest.swift */; };
+		304CD95C28B7BBFD007A82E2 /* AuthenticationRequestJsonGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD95B28B7BBFD007A82E2 /* AuthenticationRequestJsonGenerator.swift */; };
+		304CD95E28B7BC1E007A82E2 /* AuthenticationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD95D28B7BC1E007A82E2 /* AuthenticationRequest.swift */; };
+		304CD96028B7BC60007A82E2 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD95F28B7BC60007A82E2 /* AppConfiguration.swift */; };
+		304CD96228B7BCC7007A82E2 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD96128B7BCC7007A82E2 /* Date+Utils.swift */; };
+		304CD96428B7BD2B007A82E2 /* RequestorBackendRequestsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD96328B7BD2B007A82E2 /* RequestorBackendRequestsGenerator.swift */; };
+		304CD96628B7BD67007A82E2 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD96528B7BD67007A82E2 /* ApiConstants.swift */; };
+		304CD96828B7BDAA007A82E2 /* ThreeDSVersioningRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD96728B7BDAA007A82E2 /* ThreeDSVersioningRequest.swift */; };
+		304CD96E28BDACBC007A82E2 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD96D28BDACBC007A82E2 /* StatusView.swift */; };
+		304CD97028BDACE2007A82E2 /* AppChallengeStatusReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304CD96F28BDACE2007A82E2 /* AppChallengeStatusReceiver.swift */; };
+		304CD97228BE702F007A82E2 /* acs2021.pem in Resources */ = {isa = PBXBuildFile; fileRef = 304CD97128BE702F007A82E2 /* acs2021.pem */; };
+		3068B3A028A68B7D004C7888 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3068B39F28A68B7D004C7888 /* script.js */; };
+		3068B3A328AEB821004C7888 /* AmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068B3A228AEB821004C7888 /* AmountViewController.swift */; };
+		3068B3A528AEB865004C7888 /* Amount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3068B3A428AEB865004C7888 /* Amount.storyboard */; };
+		3068B3A728AEB9B8004C7888 /* AmountBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068B3A628AEB9B8004C7888 /* AmountBuilder.swift */; };
+		3068B3AC28B6D0BA004C7888 /* InitializationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068B3AB28B6D0BA004C7888 /* InitializationUseCase.swift */; };
+		3068B3AE28B6D0E8004C7888 /* InitializationUseCaseImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068B3AD28B6D0E8004C7888 /* InitializationUseCaseImplementation.swift */; };
+		3070765828B6D42D00E569D0 /* AppBootstraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3070765728B6D42D00E569D0 /* AppBootstraper.swift */; };
+		30BB37C828B703DA002E58FB /* license-key.txt in Resources */ = {isa = PBXBuildFile; fileRef = 30BB37C128B703DA002E58FB /* license-key.txt */; };
+		30BB37C928B703DA002E58FB /* nca_demo_visa_root.crt in Resources */ = {isa = PBXBuildFile; fileRef = 30BB37C328B703DA002E58FB /* nca_demo_visa_root.crt */; };
+		30BB37CA28B703DA002E58FB /* nca_demo_mastercard_root.crt in Resources */ = {isa = PBXBuildFile; fileRef = 30BB37C428B703DA002E58FB /* nca_demo_mastercard_root.crt */; };
+		30BB37CB28B703DA002E58FB /* DSsConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30BB37C528B703DA002E58FB /* DSsConfiguration.plist */; };
+		30BB37CC28B703DA002E58FB /* nca_demo_mastercard_encryption.crt in Resources */ = {isa = PBXBuildFile; fileRef = 30BB37C628B703DA002E58FB /* nca_demo_mastercard_encryption.crt */; };
+		30BB37CD28B703DA002E58FB /* nca_demo_visa_encryption.crt in Resources */ = {isa = PBXBuildFile; fileRef = 30BB37C728B703DA002E58FB /* nca_demo_visa_encryption.crt */; };
+		7CBD9B25895DA0A809803A6A /* Pods_Merchant3DSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053DB90ECAD350237F8078D4 /* Pods_Merchant3DSTests.framework */; };
+		E49048334073EF7C2261EC91 /* Pods_Merchant3DS_Merchant3DSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15712DFBA6307AE2C14D3F74 /* Pods_Merchant3DS_Merchant3DSUITests.framework */; };
+		E7EBCA21DE559EAD89877BC4 /* Pods_Merchant3DS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BAC3B17947A3E9A298FF9F /* Pods_Merchant3DS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3046C36E284916B100955E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3046C34F284916B000955E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3046C356284916B000955E5A;
+			remoteInfo = Merchant3DS;
+		};
+		3046C378284916B100955E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3046C34F284916B000955E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3046C356284916B000955E5A;
+			remoteInfo = Merchant3DS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053DB90ECAD350237F8078D4 /* Pods_Merchant3DSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Merchant3DSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8875C754F93ADFA7384D2C /* Pods-Merchant3DS-Merchant3DSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merchant3DS-Merchant3DSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Merchant3DS-Merchant3DSUITests/Pods-Merchant3DS-Merchant3DSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15712DFBA6307AE2C14D3F74 /* Pods_Merchant3DS_Merchant3DSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Merchant3DS_Merchant3DSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A4AD87067B7153FC9B0F33 /* Pods-Merchant3DS-Merchant3DSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merchant3DS-Merchant3DSUITests.release.xcconfig"; path = "Target Support Files/Pods-Merchant3DS-Merchant3DSUITests/Pods-Merchant3DS-Merchant3DSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3046C357284916B000955E5A /* Merchant3DS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Merchant3DS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3046C35A284916B000955E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3046C35E284916B000955E5A /* MerchantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantViewController.swift; sourceTree = "<group>"; };
+		3046C361284916B000955E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Merchant.storyboard; sourceTree = "<group>"; };
+		3046C363284916B100955E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3046C366284916B100955E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3046C368284916B100955E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3046C36D284916B100955E5A /* Merchant3DSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Merchant3DSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3046C371284916B100955E5A /* Merchant3DSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merchant3DSTests.swift; sourceTree = "<group>"; };
+		3046C377284916B100955E5A /* Merchant3DSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Merchant3DSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3046C37B284916B100955E5A /* Merchant3DSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merchant3DSUITests.swift; sourceTree = "<group>"; };
+		3046C37D284916B100955E5A /* Merchant3DSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merchant3DSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3046C38B2849179F00955E5A /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		3046C3922849186300955E5A /* ACSWebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ACSWebView.xib; sourceTree = "<group>"; };
+		3046C3942849189200955E5A /* ACSWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACSWebView.swift; sourceTree = "<group>"; };
+		3046C39728491BF600955E5A /* cardData.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cardData.html; sourceTree = "<group>"; };
+		3046C39A2852D39F00955E5A /* Configuration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Configuration.storyboard; sourceTree = "<group>"; };
+		3046C39C2852D3FA00955E5A /* ConfigurationGPBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationGPBuilder.swift; sourceTree = "<group>"; };
+		3046C39E2852D41500955E5A /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		3046C3A02852D43E00955E5A /* ConfigurationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewModel.swift; sourceTree = "<group>"; };
+		3046C3AA2852D54100955E5A /* DefaultsKey+Discoery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefaultsKey+Discoery.swift"; sourceTree = "<group>"; };
+		3046C3AC2852D56300955E5A /* ValuesKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuesKeys.swift; sourceTree = "<group>"; };
+		3046C3AE2852D64900955E5A /* KeyValueStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueStore.swift; sourceTree = "<group>"; };
+		3046C3B02852D69400955E5A /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		3046C3B22852D6B300955E5A /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		3046C3B42852D6CB00955E5A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3046C3B62852D6F400955E5A /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		3046C3B92852D73000955E5A /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		3046C3BB2852D76500955E5A /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		3046C3BE2852D79400955E5A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3046C3C02852D7C900955E5A /* CountryUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryUtils.swift; sourceTree = "<group>"; };
+		3046C3C32852D82700955E5A /* Mappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		3046C3C62852DAA200955E5A /* MerchantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantViewModel.swift; sourceTree = "<group>"; };
+		3046C3C82852DC2800955E5A /* MerchantBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantBuilder.swift; sourceTree = "<group>"; };
+		3046C3CD2852DDB500955E5A /* AddressType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressType.swift; sourceTree = "<group>"; };
+		3046C3D02852DDF100955E5A /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		3046C3D22852DE0E00955E5A /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		3046C3D82852DF1800955E5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3046C3DF2852E17D00955E5A /* GatewayProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewayProvider.swift; sourceTree = "<group>"; };
+		3046C3E32852E31100955E5A /* OptionalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExtensions.swift; sourceTree = "<group>"; };
+		3046C4002858F36C00955E5A /* SwiftLang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLang.swift; sourceTree = "<group>"; };
+		3046C4072858F42D00955E5A /* StringsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsExtensions.swift; sourceTree = "<group>"; };
+		3046C40B2858F4AC00955E5A /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		3046C40D2858F4F300955E5A /* ServiceEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceEndpoints.swift; sourceTree = "<group>"; };
+		3046C40F2858F53D00955E5A /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		304CD93928B7AB95007A82E2 /* ConfigurationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationService.swift; sourceTree = "<group>"; };
+		304CD93B28B7B913007A82E2 /* PaymentDetailsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsUseCase.swift; sourceTree = "<group>"; };
+		304CD93E28B7B96C007A82E2 /* ApiGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiGateway.swift; sourceTree = "<group>"; };
+		304CD94128B7B9A1007A82E2 /* AuthenticationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationResponse.swift; sourceTree = "<group>"; };
+		304CD94328B7B9C4007A82E2 /* ThreeDSVersioningResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDSVersioningResponse.swift; sourceTree = "<group>"; };
+		304CD94528B7B9E2007A82E2 /* Deserialisable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deserialisable.swift; sourceTree = "<group>"; };
+		304CD94728B7B9FB007A82E2 /* ErrorDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDetails.swift; sourceTree = "<group>"; };
+		304CD94928B7BA1A007A82E2 /* DeserialisableHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeserialisableHandler.swift; sourceTree = "<group>"; };
+		304CD94B28B7BA45007A82E2 /* AppSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSessionDelegate.swift; sourceTree = "<group>"; };
+		304CD94D28B7BA66007A82E2 /* RequestorBackendEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestorBackendEndpoint.swift; sourceTree = "<group>"; };
+		304CD94F28B7BAC5007A82E2 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		304CD95128B7BB09007A82E2 /* ErrorDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDescription.swift; sourceTree = "<group>"; };
+		304CD95328B7BB81007A82E2 /* PaymentDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetails.swift; sourceTree = "<group>"; };
+		304CD95628B7BBAB007A82E2 /* MessageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageExtension.swift; sourceTree = "<group>"; };
+		304CD95928B7BBCD007A82E2 /* MessageExtensionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageExtensionRequest.swift; sourceTree = "<group>"; };
+		304CD95B28B7BBFD007A82E2 /* AuthenticationRequestJsonGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRequestJsonGenerator.swift; sourceTree = "<group>"; };
+		304CD95D28B7BC1E007A82E2 /* AuthenticationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRequest.swift; sourceTree = "<group>"; };
+		304CD95F28B7BC60007A82E2 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		304CD96128B7BCC7007A82E2 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		304CD96328B7BD2B007A82E2 /* RequestorBackendRequestsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestorBackendRequestsGenerator.swift; sourceTree = "<group>"; };
+		304CD96528B7BD67007A82E2 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		304CD96728B7BDAA007A82E2 /* ThreeDSVersioningRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDSVersioningRequest.swift; sourceTree = "<group>"; };
+		304CD96D28BDACBC007A82E2 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		304CD96F28BDACE2007A82E2 /* AppChallengeStatusReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppChallengeStatusReceiver.swift; sourceTree = "<group>"; };
+		304CD97128BE702F007A82E2 /* acs2021.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = acs2021.pem; sourceTree = "<group>"; };
+		3068B39F28A68B7D004C7888 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		3068B3A228AEB821004C7888 /* AmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountViewController.swift; sourceTree = "<group>"; };
+		3068B3A428AEB865004C7888 /* Amount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Amount.storyboard; sourceTree = "<group>"; };
+		3068B3A628AEB9B8004C7888 /* AmountBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountBuilder.swift; sourceTree = "<group>"; };
+		3068B3AB28B6D0BA004C7888 /* InitializationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationUseCase.swift; sourceTree = "<group>"; };
+		3068B3AD28B6D0E8004C7888 /* InitializationUseCaseImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationUseCaseImplementation.swift; sourceTree = "<group>"; };
+		3070765728B6D42D00E569D0 /* AppBootstraper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBootstraper.swift; sourceTree = "<group>"; };
+		30BB37C128B703DA002E58FB /* license-key.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "license-key.txt"; sourceTree = "<group>"; };
+		30BB37C328B703DA002E58FB /* nca_demo_visa_root.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nca_demo_visa_root.crt; sourceTree = "<group>"; };
+		30BB37C428B703DA002E58FB /* nca_demo_mastercard_root.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nca_demo_mastercard_root.crt; sourceTree = "<group>"; };
+		30BB37C528B703DA002E58FB /* DSsConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DSsConfiguration.plist; sourceTree = "<group>"; };
+		30BB37C628B703DA002E58FB /* nca_demo_mastercard_encryption.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nca_demo_mastercard_encryption.crt; sourceTree = "<group>"; };
+		30BB37C728B703DA002E58FB /* nca_demo_visa_encryption.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nca_demo_visa_encryption.crt; sourceTree = "<group>"; };
+		5922E0A41A9DC4BEA246392A /* Pods-Merchant3DS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merchant3DS.release.xcconfig"; path = "Target Support Files/Pods-Merchant3DS/Pods-Merchant3DS.release.xcconfig"; sourceTree = "<group>"; };
+		D07FC3B431C6612F6167A532 /* Pods-Merchant3DSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merchant3DSTests.debug.xcconfig"; path = "Target Support Files/Pods-Merchant3DSTests/Pods-Merchant3DSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB7F3A3354242DF787B4B284 /* Pods-Merchant3DS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merchant3DS.debug.xcconfig"; path = "Target Support Files/Pods-Merchant3DS/Pods-Merchant3DS.debug.xcconfig"; sourceTree = "<group>"; };
+		EC1BF8396FCED78EC580CAD9 /* Pods-Merchant3DSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Merchant3DSTests.release.xcconfig"; path = "Target Support Files/Pods-Merchant3DSTests/Pods-Merchant3DSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2BAC3B17947A3E9A298FF9F /* Pods_Merchant3DS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Merchant3DS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3046C354284916B000955E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7EBCA21DE559EAD89877BC4 /* Pods_Merchant3DS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3046C36A284916B100955E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBD9B25895DA0A809803A6A /* Pods_Merchant3DSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3046C374284916B100955E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49048334073EF7C2261EC91 /* Pods_Merchant3DS_Merchant3DSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3046C34E284916B000955E5A = {
+			isa = PBXGroup;
+			children = (
+				3046C359284916B000955E5A /* Merchant3DS */,
+				3046C370284916B100955E5A /* Merchant3DSTests */,
+				3046C37A284916B100955E5A /* Merchant3DSUITests */,
+				3046C358284916B000955E5A /* Products */,
+				4D8523DBAED9BF0DA700891A /* Pods */,
+				5E947B3EC7B5E4EAEC22BC50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3046C358284916B000955E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3046C357284916B000955E5A /* Merchant3DS.app */,
+				3046C36D284916B100955E5A /* Merchant3DSTests.xctest */,
+				3046C377284916B100955E5A /* Merchant3DSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3046C359284916B000955E5A /* Merchant3DS */ = {
+			isa = PBXGroup;
+			children = (
+				304CD95528B7BB9F007A82E2 /* Models */,
+				304CD94028B7B995007A82E2 /* Response */,
+				304CD93D28B7B960007A82E2 /* Gateway */,
+				3068B3AA28B6D077004C7888 /* Initialization */,
+				3046C3C22852D81F00955E5A /* Enums */,
+				3046C3BD2852D78700955E5A /* Design */,
+				3046C3B82852D72200955E5A /* Extensions */,
+				3046C39628491BCF00955E5A /* Resources */,
+				3046C38D284917B700955E5A /* Modules */,
+				3046C38A2849178A00955E5A /* Utils */,
+				3046C35A284916B000955E5A /* AppDelegate.swift */,
+				3046C365284916B100955E5A /* LaunchScreen.storyboard */,
+				3046C368284916B100955E5A /* Info.plist */,
+				3070765728B6D42D00E569D0 /* AppBootstraper.swift */,
+			);
+			path = Merchant3DS;
+			sourceTree = "<group>";
+		};
+		3046C370284916B100955E5A /* Merchant3DSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3046C371284916B100955E5A /* Merchant3DSTests.swift */,
+			);
+			path = Merchant3DSTests;
+			sourceTree = "<group>";
+		};
+		3046C37A284916B100955E5A /* Merchant3DSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3046C37B284916B100955E5A /* Merchant3DSUITests.swift */,
+				3046C37D284916B100955E5A /* Merchant3DSUITestsLaunchTests.swift */,
+			);
+			path = Merchant3DSUITests;
+			sourceTree = "<group>";
+		};
+		3046C38A2849178A00955E5A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3046C38B2849179F00955E5A /* StoryboardInstantiable.swift */,
+				3046C3AA2852D54100955E5A /* DefaultsKey+Discoery.swift */,
+				3046C3AC2852D56300955E5A /* ValuesKeys.swift */,
+				3046C3AE2852D64900955E5A /* KeyValueStore.swift */,
+				3046C3B02852D69400955E5A /* UIViewControllerExtensions.swift */,
+				3046C3B22852D6B300955E5A /* StringExtensions.swift */,
+				3046C3B42852D6CB00955E5A /* Utils.swift */,
+				3046C3B62852D6F400955E5A /* UIViewExtensions.swift */,
+				3046C3C02852D7C900955E5A /* CountryUtils.swift */,
+				3046C4002858F36C00955E5A /* SwiftLang.swift */,
+				304CD95128B7BB09007A82E2 /* ErrorDescription.swift */,
+				304CD95F28B7BC60007A82E2 /* AppConfiguration.swift */,
+				304CD96128B7BCC7007A82E2 /* Date+Utils.swift */,
+				304CD96D28BDACBC007A82E2 /* StatusView.swift */,
+				304CD96F28BDACE2007A82E2 /* AppChallengeStatusReceiver.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3046C38D284917B700955E5A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3068B3A128AEB7EC004C7888 /* Amount */,
+				3046C3CF2852DDE700955E5A /* Components */,
+				3046C3C52852DA8400955E5A /* Merchant */,
+				3046C3992852D35200955E5A /* Configuration */,
+				3046C38E284917D800955E5A /* CardData */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3046C38E284917D800955E5A /* CardData */ = {
+			isa = PBXGroup;
+			children = (
+				3046C38F284917F300955E5A /* View */,
+			);
+			path = CardData;
+			sourceTree = "<group>";
+		};
+		3046C38F284917F300955E5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3046C3922849186300955E5A /* ACSWebView.xib */,
+				3046C3942849189200955E5A /* ACSWebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3046C39628491BCF00955E5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				304CD97128BE702F007A82E2 /* acs2021.pem */,
+				30BB37C028B703DA002E58FB /* DSsPublicKeys */,
+				3068B39F28A68B7D004C7888 /* script.js */,
+				3046C363284916B100955E5A /* Assets.xcassets */,
+				3046C39728491BF600955E5A /* cardData.html */,
+				3046C3D92852DF1800955E5A /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3046C3992852D35200955E5A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3046C39A2852D39F00955E5A /* Configuration.storyboard */,
+				3046C39C2852D3FA00955E5A /* ConfigurationGPBuilder.swift */,
+				3046C39E2852D41500955E5A /* ConfigurationViewController.swift */,
+				3046C3A02852D43E00955E5A /* ConfigurationViewModel.swift */,
+				304CD93928B7AB95007A82E2 /* ConfigurationService.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		3046C3B82852D72200955E5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3046C3B92852D73000955E5A /* UITextFieldExtensions.swift */,
+				3046C3BB2852D76500955E5A /* UIButtonExtensions.swift */,
+				3046C3E32852E31100955E5A /* OptionalExtensions.swift */,
+				3046C4072858F42D00955E5A /* StringsExtensions.swift */,
+				3046C40B2858F4AC00955E5A /* DateExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3046C3BD2852D78700955E5A /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				3046C3BE2852D79400955E5A /* Theme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		3046C3C22852D81F00955E5A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				3046C3C32852D82700955E5A /* Mappable.swift */,
+				3046C3CD2852DDB500955E5A /* AddressType.swift */,
+				3046C3DF2852E17D00955E5A /* GatewayProvider.swift */,
+				3046C40D2858F4F300955E5A /* ServiceEndpoints.swift */,
+				3046C40F2858F53D00955E5A /* Environment.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		3046C3C52852DA8400955E5A /* Merchant */ = {
+			isa = PBXGroup;
+			children = (
+				3046C3C62852DAA200955E5A /* MerchantViewModel.swift */,
+				3046C35E284916B000955E5A /* MerchantViewController.swift */,
+				3046C3C82852DC2800955E5A /* MerchantBuilder.swift */,
+				3046C360284916B000955E5A /* Merchant.storyboard */,
+				304CD93B28B7B913007A82E2 /* PaymentDetailsUseCase.swift */,
+			);
+			path = Merchant;
+			sourceTree = "<group>";
+		};
+		3046C3CF2852DDE700955E5A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3046C3D02852DDF100955E5A /* DropDown.swift */,
+				3046C3D22852DE0E00955E5A /* DatePicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		304CD93D28B7B960007A82E2 /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				304CD95828B7BBC1007A82E2 /* Request */,
+				304CD93E28B7B96C007A82E2 /* ApiGateway.swift */,
+				304CD94B28B7BA45007A82E2 /* AppSessionDelegate.swift */,
+				304CD94D28B7BA66007A82E2 /* RequestorBackendEndpoint.swift */,
+				304CD94F28B7BAC5007A82E2 /* AppError.swift */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		304CD94028B7B995007A82E2 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				304CD94128B7B9A1007A82E2 /* AuthenticationResponse.swift */,
+				304CD94328B7B9C4007A82E2 /* ThreeDSVersioningResponse.swift */,
+				304CD94528B7B9E2007A82E2 /* Deserialisable.swift */,
+				304CD94728B7B9FB007A82E2 /* ErrorDetails.swift */,
+				304CD94928B7BA1A007A82E2 /* DeserialisableHandler.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		304CD95528B7BB9F007A82E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				304CD95328B7BB81007A82E2 /* PaymentDetails.swift */,
+				304CD95628B7BBAB007A82E2 /* MessageExtension.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		304CD95828B7BBC1007A82E2 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				304CD95928B7BBCD007A82E2 /* MessageExtensionRequest.swift */,
+				304CD95B28B7BBFD007A82E2 /* AuthenticationRequestJsonGenerator.swift */,
+				304CD95D28B7BC1E007A82E2 /* AuthenticationRequest.swift */,
+				304CD96328B7BD2B007A82E2 /* RequestorBackendRequestsGenerator.swift */,
+				304CD96528B7BD67007A82E2 /* ApiConstants.swift */,
+				304CD96728B7BDAA007A82E2 /* ThreeDSVersioningRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3068B3A128AEB7EC004C7888 /* Amount */ = {
+			isa = PBXGroup;
+			children = (
+				3068B3A228AEB821004C7888 /* AmountViewController.swift */,
+				3068B3A428AEB865004C7888 /* Amount.storyboard */,
+				3068B3A628AEB9B8004C7888 /* AmountBuilder.swift */,
+			);
+			path = Amount;
+			sourceTree = "<group>";
+		};
+		3068B3AA28B6D077004C7888 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				3068B3AB28B6D0BA004C7888 /* InitializationUseCase.swift */,
+				3068B3AD28B6D0E8004C7888 /* InitializationUseCaseImplementation.swift */,
+			);
+			path = Initialization;
+			sourceTree = "<group>";
+		};
+		30BB37C028B703DA002E58FB /* DSsPublicKeys */ = {
+			isa = PBXGroup;
+			children = (
+				30BB37C128B703DA002E58FB /* license-key.txt */,
+				30BB37C228B703DA002E58FB /* rootCertificates */,
+				30BB37C528B703DA002E58FB /* DSsConfiguration.plist */,
+				30BB37C628B703DA002E58FB /* nca_demo_mastercard_encryption.crt */,
+				30BB37C728B703DA002E58FB /* nca_demo_visa_encryption.crt */,
+			);
+			path = DSsPublicKeys;
+			sourceTree = "<group>";
+		};
+		30BB37C228B703DA002E58FB /* rootCertificates */ = {
+			isa = PBXGroup;
+			children = (
+				30BB37C328B703DA002E58FB /* nca_demo_visa_root.crt */,
+				30BB37C428B703DA002E58FB /* nca_demo_mastercard_root.crt */,
+			);
+			path = rootCertificates;
+			sourceTree = "<group>";
+		};
+		4D8523DBAED9BF0DA700891A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F3A3354242DF787B4B284 /* Pods-Merchant3DS.debug.xcconfig */,
+				5922E0A41A9DC4BEA246392A /* Pods-Merchant3DS.release.xcconfig */,
+				0E8875C754F93ADFA7384D2C /* Pods-Merchant3DS-Merchant3DSUITests.debug.xcconfig */,
+				18A4AD87067B7153FC9B0F33 /* Pods-Merchant3DS-Merchant3DSUITests.release.xcconfig */,
+				D07FC3B431C6612F6167A532 /* Pods-Merchant3DSTests.debug.xcconfig */,
+				EC1BF8396FCED78EC580CAD9 /* Pods-Merchant3DSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E947B3EC7B5E4EAEC22BC50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2BAC3B17947A3E9A298FF9F /* Pods_Merchant3DS.framework */,
+				15712DFBA6307AE2C14D3F74 /* Pods_Merchant3DS_Merchant3DSUITests.framework */,
+				053DB90ECAD350237F8078D4 /* Pods_Merchant3DSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3046C356284916B000955E5A /* Merchant3DS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3046C381284916B100955E5A /* Build configuration list for PBXNativeTarget "Merchant3DS" */;
+			buildPhases = (
+				03D8C538E8F0AC42917434AC /* [CP] Check Pods Manifest.lock */,
+				3046C353284916B000955E5A /* Sources */,
+				3046C354284916B000955E5A /* Frameworks */,
+				3046C355284916B000955E5A /* Resources */,
+				93C26911071969888CFB2E4B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Merchant3DS;
+			productName = Merchant3DS;
+			productReference = 3046C357284916B000955E5A /* Merchant3DS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3046C36C284916B100955E5A /* Merchant3DSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3046C384284916B100955E5A /* Build configuration list for PBXNativeTarget "Merchant3DSTests" */;
+			buildPhases = (
+				5D481E928EBBA2521859441C /* [CP] Check Pods Manifest.lock */,
+				3046C369284916B100955E5A /* Sources */,
+				3046C36A284916B100955E5A /* Frameworks */,
+				3046C36B284916B100955E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3046C36F284916B100955E5A /* PBXTargetDependency */,
+			);
+			name = Merchant3DSTests;
+			productName = Merchant3DSTests;
+			productReference = 3046C36D284916B100955E5A /* Merchant3DSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3046C376284916B100955E5A /* Merchant3DSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3046C387284916B100955E5A /* Build configuration list for PBXNativeTarget "Merchant3DSUITests" */;
+			buildPhases = (
+				404A0F9B58A72830D12C7CB4 /* [CP] Check Pods Manifest.lock */,
+				3046C373284916B100955E5A /* Sources */,
+				3046C374284916B100955E5A /* Frameworks */,
+				3046C375284916B100955E5A /* Resources */,
+				80712C1E89BBE6A5E2780C48 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3046C379284916B100955E5A /* PBXTargetDependency */,
+			);
+			name = Merchant3DSUITests;
+			productName = Merchant3DSUITests;
+			productReference = 3046C377284916B100955E5A /* Merchant3DSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3046C34F284916B000955E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3046C356284916B000955E5A = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					3046C36C284916B100955E5A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 3046C356284916B000955E5A;
+					};
+					3046C376284916B100955E5A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 3046C356284916B000955E5A;
+					};
+				};
+			};
+			buildConfigurationList = 3046C352284916B000955E5A /* Build configuration list for PBXProject "Merchant3DS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3046C34E284916B000955E5A;
+			productRefGroup = 3046C358284916B000955E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3046C356284916B000955E5A /* Merchant3DS */,
+				3046C36C284916B100955E5A /* Merchant3DSTests */,
+				3046C376284916B100955E5A /* Merchant3DSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3046C355284916B000955E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3046C39828491BF600955E5A /* cardData.html in Resources */,
+				3068B3A028A68B7D004C7888 /* script.js in Resources */,
+				3046C367284916B100955E5A /* LaunchScreen.storyboard in Resources */,
+				3046C364284916B100955E5A /* Assets.xcassets in Resources */,
+				30BB37CD28B703DA002E58FB /* nca_demo_visa_encryption.crt in Resources */,
+				3046C3D72852DF1800955E5A /* Localizable.strings in Resources */,
+				30BB37CB28B703DA002E58FB /* DSsConfiguration.plist in Resources */,
+				304CD97228BE702F007A82E2 /* acs2021.pem in Resources */,
+				3068B3A528AEB865004C7888 /* Amount.storyboard in Resources */,
+				30BB37C928B703DA002E58FB /* nca_demo_visa_root.crt in Resources */,
+				3046C39B2852D39F00955E5A /* Configuration.storyboard in Resources */,
+				3046C362284916B000955E5A /* Merchant.storyboard in Resources */,
+				30BB37CC28B703DA002E58FB /* nca_demo_mastercard_encryption.crt in Resources */,
+				30BB37CA28B703DA002E58FB /* nca_demo_mastercard_root.crt in Resources */,
+				30BB37C828B703DA002E58FB /* license-key.txt in Resources */,
+				3046C3932849186300955E5A /* ACSWebView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3046C36B284916B100955E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3046C375284916B100955E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D8C538E8F0AC42917434AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Merchant3DS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		404A0F9B58A72830D12C7CB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Merchant3DS-Merchant3DSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D481E928EBBA2521859441C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Merchant3DSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80712C1E89BBE6A5E2780C48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Merchant3DS-Merchant3DSUITests/Pods-Merchant3DS-Merchant3DSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Merchant3DS-Merchant3DSUITests/Pods-Merchant3DS-Merchant3DSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Merchant3DS-Merchant3DSUITests/Pods-Merchant3DS-Merchant3DSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C26911071969888CFB2E4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Merchant3DS/Pods-Merchant3DS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Merchant3DS/Pods-Merchant3DS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Merchant3DS/Pods-Merchant3DS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3046C353284916B000955E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3046C3B12852D69400955E5A /* UIViewControllerExtensions.swift in Sources */,
+				304CD94428B7B9C4007A82E2 /* ThreeDSVersioningResponse.swift in Sources */,
+				3046C4082858F42D00955E5A /* StringsExtensions.swift in Sources */,
+				304CD96428B7BD2B007A82E2 /* RequestorBackendRequestsGenerator.swift in Sources */,
+				304CD94C28B7BA45007A82E2 /* AppSessionDelegate.swift in Sources */,
+				304CD96228B7BCC7007A82E2 /* Date+Utils.swift in Sources */,
+				304CD93A28B7AB95007A82E2 /* ConfigurationService.swift in Sources */,
+				3068B3AE28B6D0E8004C7888 /* InitializationUseCaseImplementation.swift in Sources */,
+				3068B3AC28B6D0BA004C7888 /* InitializationUseCase.swift in Sources */,
+				3046C3AD2852D56300955E5A /* ValuesKeys.swift in Sources */,
+				304CD95228B7BB09007A82E2 /* ErrorDescription.swift in Sources */,
+				3046C35F284916B000955E5A /* MerchantViewController.swift in Sources */,
+				304CD94828B7B9FB007A82E2 /* ErrorDetails.swift in Sources */,
+				304CD96628B7BD67007A82E2 /* ApiConstants.swift in Sources */,
+				3046C3E42852E31100955E5A /* OptionalExtensions.swift in Sources */,
+				3046C4012858F36C00955E5A /* SwiftLang.swift in Sources */,
+				3046C3AB2852D54100955E5A /* DefaultsKey+Discoery.swift in Sources */,
+				304CD96828B7BDAA007A82E2 /* ThreeDSVersioningRequest.swift in Sources */,
+				3046C3BC2852D76500955E5A /* UIButtonExtensions.swift in Sources */,
+				304CD96028B7BC60007A82E2 /* AppConfiguration.swift in Sources */,
+				3046C3AF2852D64900955E5A /* KeyValueStore.swift in Sources */,
+				304CD95428B7BB81007A82E2 /* PaymentDetails.swift in Sources */,
+				3046C35B284916B000955E5A /* AppDelegate.swift in Sources */,
+				3046C39D2852D3FB00955E5A /* ConfigurationGPBuilder.swift in Sources */,
+				304CD94228B7B9A1007A82E2 /* AuthenticationResponse.swift in Sources */,
+				3046C3C72852DAA200955E5A /* MerchantViewModel.swift in Sources */,
+				304CD95028B7BAC5007A82E2 /* AppError.swift in Sources */,
+				3046C3A12852D43E00955E5A /* ConfigurationViewModel.swift in Sources */,
+				304CD97028BDACE2007A82E2 /* AppChallengeStatusReceiver.swift in Sources */,
+				3046C3E02852E17D00955E5A /* GatewayProvider.swift in Sources */,
+				3046C3B72852D6F400955E5A /* UIViewExtensions.swift in Sources */,
+				3068B3A728AEB9B8004C7888 /* AmountBuilder.swift in Sources */,
+				304CD95A28B7BBCD007A82E2 /* MessageExtensionRequest.swift in Sources */,
+				3070765828B6D42D00E569D0 /* AppBootstraper.swift in Sources */,
+				3046C40C2858F4AC00955E5A /* DateExtensions.swift in Sources */,
+				3046C3C92852DC2800955E5A /* MerchantBuilder.swift in Sources */,
+				304CD95C28B7BBFD007A82E2 /* AuthenticationRequestJsonGenerator.swift in Sources */,
+				304CD94E28B7BA66007A82E2 /* RequestorBackendEndpoint.swift in Sources */,
+				3046C38C2849179F00955E5A /* StoryboardInstantiable.swift in Sources */,
+				3046C3B52852D6CB00955E5A /* Utils.swift in Sources */,
+				304CD94628B7B9E2007A82E2 /* Deserialisable.swift in Sources */,
+				3046C3CE2852DDB500955E5A /* AddressType.swift in Sources */,
+				304CD93C28B7B913007A82E2 /* PaymentDetailsUseCase.swift in Sources */,
+				304CD96E28BDACBC007A82E2 /* StatusView.swift in Sources */,
+				3046C39F2852D41500955E5A /* ConfigurationViewController.swift in Sources */,
+				3046C3BF2852D79400955E5A /* Theme.swift in Sources */,
+				304CD95728B7BBAB007A82E2 /* MessageExtension.swift in Sources */,
+				3046C3952849189200955E5A /* ACSWebView.swift in Sources */,
+				3046C3C12852D7C900955E5A /* CountryUtils.swift in Sources */,
+				304CD95E28B7BC1E007A82E2 /* AuthenticationRequest.swift in Sources */,
+				3046C3D32852DE0E00955E5A /* DatePicker.swift in Sources */,
+				3046C3C42852D82700955E5A /* Mappable.swift in Sources */,
+				3046C40E2858F4F300955E5A /* ServiceEndpoints.swift in Sources */,
+				3068B3A328AEB821004C7888 /* AmountViewController.swift in Sources */,
+				3046C3BA2852D73000955E5A /* UITextFieldExtensions.swift in Sources */,
+				3046C4102858F53D00955E5A /* Environment.swift in Sources */,
+				3046C3D12852DDF100955E5A /* DropDown.swift in Sources */,
+				304CD93F28B7B96C007A82E2 /* ApiGateway.swift in Sources */,
+				3046C3B32852D6B300955E5A /* StringExtensions.swift in Sources */,
+				304CD94A28B7BA1A007A82E2 /* DeserialisableHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3046C369284916B100955E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3046C372284916B100955E5A /* Merchant3DSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3046C373284916B100955E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3046C37C284916B100955E5A /* Merchant3DSUITests.swift in Sources */,
+				3046C37E284916B100955E5A /* Merchant3DSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3046C36F284916B100955E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3046C356284916B000955E5A /* Merchant3DS */;
+			targetProxy = 3046C36E284916B100955E5A /* PBXContainerItemProxy */;
+		};
+		3046C379284916B100955E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3046C356284916B000955E5A /* Merchant3DS */;
+			targetProxy = 3046C378284916B100955E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3046C360284916B000955E5A /* Merchant.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3046C361284916B000955E5A /* Base */,
+			);
+			name = Merchant.storyboard;
+			sourceTree = "<group>";
+		};
+		3046C365284916B100955E5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3046C366284916B100955E5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3046C3D92852DF1800955E5A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3046C3D82852DF1800955E5A /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3046C37F284916B100955E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3046C380284916B100955E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3046C382284916B100955E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7F3A3354242DF787B4B284 /* Pods-Merchant3DS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UCKY7Z4HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Merchant3DS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalpayments.Merchant3DS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3046C383284916B100955E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5922E0A41A9DC4BEA246392A /* Pods-Merchant3DS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UCKY7Z4HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Merchant3DS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalpayments.Merchant3DS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3046C385284916B100955E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07FC3B431C6612F6167A532 /* Pods-Merchant3DSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalpayments.Merchant3DSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merchant3DS.app/Merchant3DS";
+			};
+			name = Debug;
+		};
+		3046C386284916B100955E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1BF8396FCED78EC580CAD9 /* Pods-Merchant3DSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalpayments.Merchant3DSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Merchant3DS.app/Merchant3DS";
+			};
+			name = Release;
+		};
+		3046C388284916B100955E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8875C754F93ADFA7384D2C /* Pods-Merchant3DS-Merchant3DSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalpayments.Merchant3DSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Merchant3DS;
+			};
+			name = Debug;
+		};
+		3046C389284916B100955E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A4AD87067B7153FC9B0F33 /* Pods-Merchant3DS-Merchant3DSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.globalpayments.Merchant3DSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Merchant3DS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3046C352284916B000955E5A /* Build configuration list for PBXProject "Merchant3DS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3046C37F284916B100955E5A /* Debug */,
+				3046C380284916B100955E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3046C381284916B100955E5A /* Build configuration list for PBXNativeTarget "Merchant3DS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3046C382284916B100955E5A /* Debug */,
+				3046C383284916B100955E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3046C384284916B100955E5A /* Build configuration list for PBXNativeTarget "Merchant3DSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3046C385284916B100955E5A /* Debug */,
+				3046C386284916B100955E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3046C387284916B100955E5A /* Build configuration list for PBXNativeTarget "Merchant3DSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3046C388284916B100955E5A /* Debug */,
+				3046C389284916B100955E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3046C34F284916B000955E5A /* Project object */;
+}

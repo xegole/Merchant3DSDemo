@@ -1,0 +1,46 @@
+PODS:
+  - GirdersSwift (0.4.5):
+    - KeychainAccess (= 3.2.0)
+    - PromiseKit (= 6.8.3)
+    - SwiftyBeaver (= 1.7.0)
+  - GlobalPayments-iOS-SDK (1.2.5)
+  - KeychainAccess (3.2.0)
+  - PromiseKit (6.8.3):
+    - PromiseKit/CorePromise (= 6.8.3)
+    - PromiseKit/Foundation (= 6.8.3)
+    - PromiseKit/UIKit (= 6.8.3)
+  - PromiseKit/CorePromise (6.8.3)
+  - PromiseKit/Foundation (6.8.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.3):
+    - PromiseKit/CorePromise
+  - SwiftyBeaver (1.7.0)
+  - ThreeDS_SDK (2.3.60)
+
+DEPENDENCIES:
+  - GirdersSwift (= 0.4.5)
+  - GlobalPayments-iOS-SDK (~> 1.2.5)
+  - ThreeDS_SDK
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GirdersSwift
+    - KeychainAccess
+    - PromiseKit
+    - SwiftyBeaver
+  https://github.com/ios-3ds-sdk/Specs.git:
+    - ThreeDS_SDK
+  trunk:
+    - GlobalPayments-iOS-SDK
+
+SPEC CHECKSUMS:
+  GirdersSwift: ec1c1ead49c6a3aace9a2b22dc23b04bf011a0dc
+  GlobalPayments-iOS-SDK: 2bb7d2e1f779f8e14fbe527cab98af10cc091fd8
+  KeychainAccess: 3b1bf8a77eb4c6ea1ce9404c292e48f948954c6b
+  PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
+  SwiftyBeaver: 4cc0080d2e23f980652e28978db11a5c9da39165
+  ThreeDS_SDK: 3f3203374b5f068c6efae1ae1cea484effc15c90
+
+PODFILE CHECKSUM: b404fc2a4cfdd4e8eb39bf565f89540703916039
+
+COCOAPODS: 1.11.3
